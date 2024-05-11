@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Jaro:opsz@6..72&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+main h2{
+    font-family: "Bungee", sans-serif;
+}
+
+.seccion-formulario label,
+.seccion-encabezado label span{
+font-family: "Montserrat", sans-serif;
+}
+
+table,
+main label
+header h1,
+.seccion-tabla h2
+{
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 1);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seccion-formulario,
+.seccion-tabla
+.seccion-formulario
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 5%;
+
+}
+form div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.973);
+}
+
+table {            
+    text-align: center;
+    border-collapse: collapse;
+    margin: 10px;
+    font-size: 18px;
+}
+
+thead {
+    background: whitesmoke;           
+}
+
+td {
+    padding: 8px;
+    background: #dbeaf7;                        
+    border: 4px solid rgb(138, 193, 238);            
+    font-size: 18px;
+    color: black;
+    cursor: pointer;           
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+fieldset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%; /* Asumiendo que el form tiene un ancho del 20% */
+    padding: 16px;
+    margin: 30px;
+    border-radius: 4px;
+    background-color: #dfecf7;
+}
+
+.show {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}        
+
+.boton {
+    flex-grow: 1;
+    margin: 0 5px; /* Añade un poco de margen entre los botones para separarlos */
+    cursor: pointer;   
+}
+
+form label {    
+    display: inline-block;    
+    width: 100px;
+    margin: 5px;
+}        

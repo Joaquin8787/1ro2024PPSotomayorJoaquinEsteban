@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script type="module" src="./script/script.js" defer></script>
+    <title>Ciudadanos y Extranjeros</title>
+</head>
+<body>
+    <div class="contenedor">
+        <main>
+            <h2>Formulario Datos</h2>
+            <section id="encabezado" class="seccion-encabezado">
+                <label for="filter">Filtrar por</label>
+                <select id="filter"></select>
+                <label>Calcular:</label>
+                <input type="text" id="edadPromedio" disabled>
+                <input type="button" id="btnCalcularEdadPromedio" value="Calcular">
+                <div class="showColumn">
+                    <input type="checkbox" id="idCol" checked><span>Id</span>
+                    <input type="checkbox" id="nombreCol" checked><span>Nombre</span>
+                    <input type="checkbox" id="apellidoCol" checked><span>Apellido</span>
+                    <input type="checkbox" id="fechaNacimientoCol" checked><span>Fecha Nacimiento</span>
+                    <input type="checkbox" id="dniCol" checked><span>Dni</span>
+                    <input type="checkbox" id="paisOrigenCol" checked><span>Pais Origen</span>
+                </div>
+            </section>
+            <section id="section-table" class="seccion-tabla"><table id="tabla"></table></section>
+            <button type="button" id="alta">Agregar</button>
+        </main>
+            <section id="formulario" class="seccion-formulario" style="display: none;">
+                <div class="botones">
+                    <input type="submit" class="boton" id="accion" value="Alta">
+                    <input type="button" class="boton" id="eliminar" value="Eliminar" style="display: none;">
+                    <input type="reset" class="boton" id="cancelar" value="Cancelar">
+                </div>
+            </section>
+    </div>
+</body>
+</html>
